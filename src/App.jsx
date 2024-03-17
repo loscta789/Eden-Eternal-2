@@ -15,8 +15,9 @@ function App() {
 
   return (
     <div>
-      <Router>
       <Header2></Header2>
+
+      {/* <Router>
 
         <Routes>
           <Route exact path="/" element={<Header2/>} />
@@ -24,7 +25,7 @@ function App() {
           <Route path="/logIn" element={<LogInPage />} />
 
         </Routes>
-      </Router>
+      </Router> */}
     </div>
 
 
